@@ -1,5 +1,10 @@
 @extends('layouts.app')
-
+<style>
+    div.dataTables_wrapper div.dataTables_paginate
+    {
+        padding-top: 35px;
+    }
+</style>
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
